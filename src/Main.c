@@ -640,7 +640,7 @@ void Menu_Set(int m){
 
 void Setup(AlxWindow* w){
 	Menu_Set(1);
-	RGA_Get(6969);
+	Random_Get(6969);
 
 	meshCube = (mesh){ Vector_New(sizeof(Tri3D)) };
 	Cubes = Vector_New(sizeof(Rect3));
